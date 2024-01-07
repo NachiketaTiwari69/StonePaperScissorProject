@@ -90,3 +90,8 @@ img {
     display: flex;
     justify-content: center;
 }
+
+#author{
+    text-align: center;
+    padding-top: 60px;
+}
