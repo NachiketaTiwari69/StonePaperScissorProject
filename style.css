@@ -79,7 +79,7 @@ img {
 #msg {
     border: 4px solid #FF9696;
     background: #FFB5B5;
-    color: #FF6565;
+    color: #ff4949;
     font-size: 2rem;
     display: inline;
     padding: 1rem;
@@ -94,4 +94,62 @@ img {
 #author{
     text-align: center;
     padding-top: 60px;
+}
+
+@media (max-width: 768px){
+
+    img{
+        height : 140px;
+        width: 140px;
+    }
+
+    h1 {
+        color: #A3420B;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .youdecor {
+        color: #4D4D4D;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-right: 10px;
+    }
+    
+    .scoredecore {
+        color: #FF6E6E;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #msg {
+        border: 4px solid #FF9696;
+        background: #FFB5B5;
+        color: #FF6565;
+        font-size: 1rem;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    #author{
+        text-align: center;
+        padding-top: 40px;
+    }
+
 }

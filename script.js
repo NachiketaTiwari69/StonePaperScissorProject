@@ -31,7 +31,7 @@ const showwinners = (userWin, userChoice, compchoice) => {
         countCOMP++;
         compScorePara.innerHTML = countCOMP;
         msg.innerText = `You lose! Your ${userChoice} beats ${compchoice}`;
-        msg.style.backgroundColor = "#ff7070";
+        msg.style.backgroundColor = "#ff998a";
         msg.style.borderColor = "#ff5252";
         msg.style.color = "#994242";
     }
