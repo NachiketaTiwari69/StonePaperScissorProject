@@ -21,7 +21,7 @@ const showwinners = (userWin, userChoice, compchoice) => {
         console.log("You win!");
         countUSER++;
         userScorePara.innerText = countUSER;
-        msg.innerText = `You win! Your ${userChoice} beats ${compchoice}`;
+        msg.innerText = `You win! Your ${userChoice} beats ${compchoice} , Try Again ! `;
         msg.style.backgroundColor = "#86fc7c";
         msg.style.borderColor = "#2d6129";
         msg.style.color = "#408c3b";
